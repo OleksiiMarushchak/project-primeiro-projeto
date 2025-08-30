@@ -5,6 +5,7 @@
   color: #0b0803;
   background-color: #e0cbb4;
   font-style: normal;
+  font-family: 'Quicksand', sans-serif;
 }
 h1,
 h2,
@@ -14,6 +15,8 @@ h5,
 h6 {
   font-weight: 400;
   font-family: "Aboreto", sans-serif;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
 }
 ul,
 ol {
@@ -39,7 +42,6 @@ a {
     overflow: hidden;
 }
 p {
-  font-family: 'Quicksand', sans-serif;
   font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
