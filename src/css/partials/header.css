@@ -1,1 +1,58 @@
-/* PART HEADER */
+/* HEADER */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: none;
+}
+.header-logo {
+  padding: 16px 0;
+  display: block;
+}
+.header-logo:hover,
+.header-logo:focus {
+    opacity: 1;
+}
+.burger-button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+.burger-icon {
+    display: block;
+    fill: #0B0803;
+}
+@media screen and (min-width: 768px) {
+.burger-button {
+    display: none;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-logo {
+  padding: 24px 0;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.nav-link {
+  display: block;
+  padding: 24px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0b0803;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-link:hover {
+ opacity: 0.5;
+}
+.nav-link:focus {
+ opacity: 0.7;
+}
+}
