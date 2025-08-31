@@ -1,1 +1,147 @@
-/* PART LOCATION */
+/* ================================
+   PART: LOCATION SECTION
+   ================================ */
+
+/* @media screen and (min-width: 768px) {
+
+}
+@media screen and (min-width: 1440px) {
+
+} */
+/* Основной контейнер секции */
+.location-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+@media screen and (min-width: 1440px) {
+    .location-section {
+        flex-direction: row;
+    }
+}
+
+/* Блок с текстом (заголовок + описание + список контактов) */
+.location-row {
+    margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1440px) {
+    .location-row {
+        width: 419px;
+    }
+}
+
+/* Заголовки секции */
+.tagile-location-header {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.location-title {
+    font-family: "Aboreto", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: #0b0803;
+    margin-bottom: 24px;
+}
+
+.location-title-description {
+    line-height: 1.5;
+    color: #0b0803;
+}
+
+.location-title-section {
+    margin-bottom: 40px;
+}
+
+/* ================================
+     CONTACT LIST
+     ================================ */
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .contact-list {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .contact-list {
+        flex-direction: column;
+    }
+}
+
+.contact-list-item {
+    /* По умолчанию пусто */
+}
+
+@media screen and (min-width: 768px) {
+    .contact-list-item {
+        width: calc((100% - 80px) / 3);
+    }
+}
+
+/* ================================
+     CONTACT INFO INSIDE LIST ITEM
+     ================================ */
+
+.conact-list-icon {
+    margin-bottom: 16px;
+}
+
+.contact-info-title {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+    color: #0b0803;
+}
+
+.contact-link {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: underline;
+    color: #0b0803;
+}
+
+.contact-address {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+/* Направления (ссылка + иконка) */
+.direction-wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.direction-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0b0803;
+}
+
+/* ================================
+     MAP (iframe)
+     ================================ */
+
+iframe {
+    min-width: 100%;
+    min-height: 307px;
+    border-radius: 40px;
+}
