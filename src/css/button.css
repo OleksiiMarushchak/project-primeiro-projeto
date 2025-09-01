@@ -1,17 +1,21 @@
-.button {
-    border-radius: 100px;
-    padding: 10px 24px; 
-    box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05), inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15), inset 0 2px 1px 0 rgba(255, 255, 255, 0.25), inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
-    background-color: #6f4e37;
-    border: none;
-    font-size: 16px;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 500;    
+button {
+  border-radius: 100px;
+  padding: 10px 24px;
+  box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05),
+    inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15),
+    inset 0 2px 1px 0 rgba(255, 255, 255, 0.25),
+    inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
+  background-color: #6f4e37;
+  border: none;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
 }
 
-.button:hover {
-    opacity:0.5;
+button:hover {
+  opacity: 0.5;
 }
-.button:focus, .button:active {
-    box-shadow: none;
+button:focus,
+button:active {
+  box-shadow: none;
 }
