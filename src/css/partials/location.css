@@ -16,14 +16,11 @@
     padding-top: 64px;
     padding-bottom: 64px;
 }
-
 @media screen and (min-width: 1440px) {
     .location-section {
         flex-direction: row;
     }
 }
-
-
 
 .location-row {
     margin-bottom: 32px;
@@ -36,20 +33,17 @@
     }
 }
 
-
 .tagile-location-header {
     font-weight: 600;
     font-size: 16px;
     margin-bottom: 16px;
 }
-
 @media screen and (min-width: 1440px) {
     .tagile-location-header {
             font-weight: 700;
             font-size: 20px;
          }
 }
-
 
 .location-title {
     font-weight: 400;
@@ -59,13 +53,11 @@
     color: #0b0803;
     margin-bottom: 24px;
 }
-
 @media screen and (min-width: 1440px) {
     .location-title {
         font-size: 48px;
     }
 }
-
 
 .location-title-description {
     line-height: 1.5;
@@ -76,11 +68,6 @@
     margin-bottom: 40px;
 }
 
-
-/* ================================
-     CONTACT LIST
-     ================================ */
-
 .contact-list {
     list-style: none;
     margin: 0;
@@ -89,43 +76,33 @@
     display: flex;
     flex-direction: column;
     gap: 40px;   }
-
 @media (min-width: 768px) {
     .contact-list {
         flex-direction: row;
     }
 }
-
 @media (min-width: 1440px) {
     .contact-list {
         flex-direction: column;
     }
 }
 
-
 .contact-list-item {
-    /* По умолчанию пусто */
 }
-
 @media screen and (min-width: 768px) {
     .contact-list-item {
         width: calc((100% - 80px) / 3);
     }
 }
-
 @media screen and (min-width: 1440px) {
     .contact-list-item {
         width: 100%;
     }
 }
 
-
-/* ================================
-     CONTACT INFO INSIDE LIST ITEM
-     ================================ */
-
 .conact-list-icon {
-    margin-bottom: 16px;   }
+    margin-bottom: 16px;   
+}
 
 .contact-info-title {
     margin-bottom: 8px;
@@ -134,7 +111,6 @@
     letter-spacing: -0.01em;
     color: #0b0803;
 }
-
 
 .contact-link {
     display: block;
@@ -155,7 +131,6 @@
     flex-direction: row;
 }
 
-
 .direction-link {
     font-weight: 500;
     font-size: 16px;
@@ -163,22 +138,17 @@
     color: #0b0803;
 }
 
-
 .map-box {
     width: 288px;
     height: 307px;
     border-radius: 40px;
 }
-
-
-
 @media screen and (min-width: 768px) {
     .map-box {
         width: 704px;
         height: 377px;
     }
 }
-
 @media screen and (min-width: 1440px) {
     .map-box {
         width: 869px;
