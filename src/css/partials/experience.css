@@ -66,19 +66,19 @@
 
   .experience-foto-normal {
     height: 336px;
-    /* min-width: 300px; */
+    min-width: 300px;
     min-height: 300px;
   }
 
   .experience-foto-small {
     height: 189px;
-    /* min-width: 300px; */
+    min-width: 300px;
     min-height: 168px;
   }
 
   .experience-foto-last {
     height: 391px;
-    /* min-width: 300px; */
+    min-width: 300px;
     min-height: 300px;
   }
 }
@@ -97,7 +97,8 @@
     font-size: 48px;
   }
 
-  .experience-item {
+  .experience-item,
+  .experience-item:last-child {
     width: calc((100% - 32px * 2) / 3);
   }
 
