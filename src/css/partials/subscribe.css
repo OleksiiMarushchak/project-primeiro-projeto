@@ -44,24 +44,10 @@
   outline: none;
   background-color: transparent;
 }
-.subscribe-form-label {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.5;
-}
+
 .subscribe-form-btn {
-  font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   color: #fff;
-  border-radius: 100px;
-  padding: 10px 24px;
-  box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05),
-    inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15),
-    inset 0 2px 1px 0 rgba(255, 255, 255, 0.25),
-    inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
-  background-color: #6f4e37;
-  border: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,6 +55,11 @@
 .subscribe-form-icon {
   margin-left: 12px;
   fill: #fff;
+}
+.subscribe-form-rules {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
 }
 .subscribe-image {
   border-radius: 40px;
@@ -108,17 +99,5 @@
   .subscribe-form-btn {
     transition: background-color 250ms ease-in-out, box-shadow 250ms ease-in-out,
       opacity 250ms ease-in-out;
-  }
-  .subscribe-form-btn:hover {
-    box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05),
-      inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2),
-      inset 0 0 0 1px rgba(11, 8, 3, 0.15),
-      inset 0 2px 1px 0 rgba(255, 255, 255, 0.25),
-      inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
-    background-color: #6f4e37;
-    opacity: 0.5;
-  }
-  .subscribe-form-btn:focus {
-    background-color: #6f4e37;
   }
 }
