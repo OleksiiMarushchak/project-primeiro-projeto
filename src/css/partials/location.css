@@ -166,8 +166,9 @@
 
 
 .map-box {
+    
     width: 288px;
-    height: 307px;
+    height: 100%;
     border-radius: 40px;
 }
 
@@ -176,13 +177,11 @@
 @media screen and (min-width: 768px) {
     .map-box {
         width: 704px;
-        height: 377px;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .map-box {
         width: 869px;
-        height: 697px;
     }
 }
