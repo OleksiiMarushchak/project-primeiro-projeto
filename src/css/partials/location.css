@@ -15,10 +15,13 @@
     flex-direction: column;
     padding-top: 64px;
     padding-bottom: 64px;
+    
 }
+
 @media screen and (min-width: 1440px) {
     .location-section {
         flex-direction: row;
+        gap: 24px;
     }
 }
 
@@ -29,7 +32,6 @@
     .location-row {
         min-width: 419px;
         margin-bottom: 0;
-        margin-right: 24px;
     }
 }
 
@@ -105,10 +107,12 @@
 }
 
 .contact-info-title {
+    font-weight: 400;
+    font-family: "Aboreto", sans-serif;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
     margin-bottom: 8px;
     font-size: 20px;
-    line-height: 1.4;
-    letter-spacing: -0.01em;
     color: #0b0803;
 }
 
@@ -129,6 +133,7 @@
 .direction-wrap {
     display: flex;
     flex-direction: row;
+    gap: 8px;
 }
 
 .direction-link {
@@ -136,10 +141,11 @@
     font-size: 16px;
     line-height: 1.5;
     color: #0b0803;
+
 }
 
 .map-box {
-    width: 288px;
+    min-width: 288px;
     height: 307px;
     border-radius: 40px;
 }
