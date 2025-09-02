@@ -32,14 +32,6 @@
   width: 100%;
 }
 
-.logo,
-.social-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
-}
-
 .logo img {
   width: 196px;
   height: 84px;
@@ -48,6 +40,7 @@
 .social-links-list {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 12px;
 }
 
