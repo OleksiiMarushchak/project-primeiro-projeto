@@ -1,9 +1,7 @@
 /* PART WELCOME */
-.welcome-section {
-min-width: 320px;
-max-width: 375px;
-margin: 0 auto;
-padding: 64px 16px;
+.welcome-container {
+padding-top: 64px;
+padding-bottom: 64px;
 display: flex;
 flex-wrap: wrap;
 gap: 32px;
@@ -13,7 +11,7 @@ gap: 32px;
 display: flex;
 flex-direction: column;
 gap: 16px;
-max-width: 288px;
+min-width: 288px;
 }
 
 .special-text {
@@ -31,14 +29,14 @@ gap: 32px;
 }
 
 .welcome-text {
-width: 288px;
+min-width: 288px;
 }
 
 .location-button {
 display: flex;
 border-radius: 100px;
 padding: 10px 24px;
-width: 288px;
+min-width: 288px;
 height: 44px;
 box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05), inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15), inset 0 2px 1px 0 rgba(255, 255, 255, 0.25), inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
 background: #6f4e37;
@@ -66,15 +64,16 @@ fill: #ffffff;
 
 .image-welcome-section {
 border-radius: 40px;
-width: 288px;
-height: 162px;
+min-width: 288px;
+min-height: 162px;
 object-fit: cover;
 }
 
 @media only screen and (min-width: 768px) {
-.welcome-section {
+.welcome-container {
 max-width: 768px;
-padding: 64px 32px;
+padding-right: 32px;
+padding-left: 32px;
 }
 
 .first-wrapper {
@@ -97,7 +96,7 @@ height: 396px;
 
 @media only screen and (min-width: 1440px) {
 
-.welcome-section {
+.welcome-container {
 max-width: 1440px;
 padding: 64px;
 row-gap: 80px;
