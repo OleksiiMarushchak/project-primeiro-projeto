@@ -3,7 +3,7 @@
 .footer {
   background: #b58869;
   text-align: center;
-  padding: 24px 0;
+  padding: 24px 16px;
   box-sizing: border-box;
   width: 100%;
 }
@@ -82,6 +82,9 @@
 }
 
 @media (min-width: 768px) {
+  .footer {
+    padding: 24px 32px
+  }
   .footer-container {
     flex-direction: column;
     align-items: center;
@@ -112,6 +115,9 @@
 }
 
 @media (min-width: 1440px) {
+  .footer {
+    padding: 24px 64px;
+  }
   .footer-container {
     flex-direction: row;
     justify-content: space-between;
