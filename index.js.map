@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"mappings":"8sDAAA,OAAO,2BAAa","names":[],"ignoreList":[],"sources":["../src/main.js"],"sourcesContent":["import(\"/js/menu.js\");\n"],"file":"index.js"}

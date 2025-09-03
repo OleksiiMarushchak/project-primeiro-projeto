@@ -21,7 +21,7 @@
     />
 
     <script type="module" crossorigin src="/project-primeiro-projeto/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-primeiro-projeto/assets/index-DUqnw-te.css">
+    <link rel="stylesheet" crossorigin href="/project-primeiro-projeto/assets/index-DfY3EBEi.css">
   </head>
   <body>
     <header class="page-header">
@@ -48,7 +48,9 @@
         </li>
       </ul>
     </nav>
-    <button class="burger-button" type="button">
+
+    <button class="burger-button" type="button" data-menu-open>
+
       <svg class="burger-icon" width="24" height="24">
         <use href="/project-primeiro-projeto/assets/sprite-DnKQezZi.svg#icon-menu"></use>
       </svg>
@@ -57,7 +59,49 @@
 </header>
 
 
-    
+    <!-- MOBILE MENU  -->
+<div class="mobile-menu" data-menu>
+  <div class="mobile-menu-container container">
+    <div class="mibile-menu-start">
+      <img class="mobile-menu-logo" src="/project-primeiro-projeto/assets/logo-CBUnr7k3.svg" alt="Logo" width="84">
+      <button class="menu-close-button" type="button" data-menu-close>
+        <svg class="close-button" alt="close icon" width="24" height="24" >
+          <use href="/project-primeiro-projeto/assets/sprite-DnKQezZi.svg#icon-cross"></use>
+        </svg>
+      </button>
+    </div>
+    <nav class="mobile-menu-nav">
+      <ul class="mobile-nav-list">
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" href="#welcome" onclick="toggleModal()"
+            >About us</a
+          >
+        </li>
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" href="#quality" onclick="toggleModal()"
+            >Benefits</a
+          >
+        </li>
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" href="#experience" onclick="toggleModal()"
+            >Gallery</a
+          >
+        </li>
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" href="#testimonial" onclick="toggleModal()"
+            >Testimonial</a
+          >
+        </li>
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" href="#location" onclick="toggleModal()"
+            >Location</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
     <main>
       <!-- Loads the specified .html file -->
       <section class="hero" id="hero">
