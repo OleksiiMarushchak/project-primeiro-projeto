@@ -41,8 +41,7 @@
   min-height: 112px;
 }
 
-.experience-foto-last {
-  width: 100%;
+.experience-item:last-child .experience-foto-normal {
   height: 391px;
   min-width: 200px;
   min-height: 300px;
@@ -76,10 +75,8 @@
     min-height: 168px;
   }
 
-  .experience-foto-last {
-    height: 391px;
-    min-width: 300px;
-    min-height: 300px;
+  .experience-item:last-child .experience-foto-normal {
+    height: 336px;
   }
 }
 
