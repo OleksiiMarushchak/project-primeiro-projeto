@@ -1,5 +1,4 @@
-/* PART MOBILE-MENU */
-
+/* MOBILE-MENU */
 
  .mobile-menu {
     position: fixed;
@@ -33,11 +32,11 @@
 .mobile-menu:not(.is-open) .mobile-menu-container {
     transform: scale(1.5);
 }
-
 .mibile-menu-start {
-    padding-bottom: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-
 .mobile-menu-logo {
     display: block;
 }
@@ -46,15 +45,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
     top: 24px;
     right: 28px;
-    width: 24px;
-    height: 24px;
     border: none;
     background-color: transparent;
-    padding: 0;
     box-shadow: none;
+    padding: 12px;
 }
 
 .mobile-menu-nav {
@@ -76,14 +72,6 @@
     font-size: 16px;
     line-height: 1.5;
     color: #0B0803;
-}
-
-.mobile-nav-link:hover {
-    opacity: 0.5;
-}
-
-.mobile-nav-link:focus {
-    opacity: 0.7;
 }
 
 @media screen and (min-width: 768px) {
