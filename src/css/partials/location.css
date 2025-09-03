@@ -1,1 +1,163 @@
-/* PART LOCATION */
+/* ================================
+   PART: LOCATION SECTION
+   ================================ */
+
+/* @media screen and (min-width: 768px) {
+
+}
+@media screen and (min-width: 1440px) {
+
+} */
+/* Основной контейнер секции */
+
+.location-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .location-section {
+        flex-direction: row;
+        gap: 24px;
+    }
+}
+
+.location-row {
+    margin-bottom: 32px;
+}
+@media screen and (min-width: 1440px) {
+    .location-row {
+        min-width: 419px;
+        margin-bottom: 0;
+    }
+}
+
+.tagile-location-header {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+@media screen and (min-width: 1440px) {
+    .tagile-location-header {
+            font-weight: 700;
+            font-size: 20px;
+         }
+}
+
+.location-title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: #0b0803;
+    margin-bottom: 24px;
+}
+@media screen and (min-width: 1440px) {
+    .location-title {
+        font-size: 48px;
+    }
+}
+
+.location-title-description {
+    line-height: 1.5;
+    color: #0b0803;
+}
+
+.location-title-section {
+    margin-bottom: 40px;
+}
+
+.contact-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;   }
+@media (min-width: 768px) {
+    .contact-list {
+        flex-direction: row;
+    }
+}
+@media (min-width: 1440px) {
+    .contact-list {
+        flex-direction: column;
+    }
+}
+
+.contact-list-item {
+}
+@media screen and (min-width: 768px) {
+    .contact-list-item {
+        width: calc((100% - 80px) / 3);
+    }
+}
+@media screen and (min-width: 1440px) {
+    .contact-list-item {
+        width: 100%;
+    }
+}
+
+.conact-list-icon {
+    margin-bottom: 16px;   
+}
+
+.contact-info-title {
+    font-weight: 400;
+    font-family: "Aboreto", sans-serif;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: #0b0803;
+}
+
+.contact-link {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: underline;
+    color: #0b0803;
+}
+
+.contact-address {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.direction-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.direction-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0b0803;
+
+}
+
+.map-box {
+    min-width: 288px;
+    height: 307px;
+    border-radius: 40px;
+}
+@media screen and (min-width: 768px) {
+    .map-box {
+        width: 704px;
+        height: 377px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .map-box {
+        width: 869px;
+        height: 697px;
+    }
+}
