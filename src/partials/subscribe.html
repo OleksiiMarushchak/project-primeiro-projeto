@@ -1,0 +1,51 @@
+<section id="subscribe" class="subscribe">
+  <div class="container subscribe-container">
+    <div class="subscribe-box">
+      <div class="subscribe-content">
+        <h2 class="subscribe-content-title">Join Our Coffee Community</h2>
+        <p class="subscribe-content-text">
+          Experience the joy of coffee delivered right to your door. Sign up
+          today!
+        </p>
+      </div>
+      <form class="subscribe-form">
+        <div class="subscribe-form-box">
+          <div class="subscribe-input-wrapper">
+            <input
+              class="subscribe-form-field"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Here"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
+            />
+            <label class="subscribe-form-label visually-hidden" for="email"
+              >Email</label
+            >
+            <p class="text-valid">Succes!</p>
+            <p class="text-invalid">Invalid email, try again</p>
+          </div>
+          <button class="subscribe-form-btn" type="submit">
+            Subscribe
+            <svg class="subscribe-form-icon" width="24" height="24">
+              <use href="/images/sprite.svg#icon-chevrons-right"></use>
+            </svg>
+          </button>
+        </div>
+        <p class="subscribe-form-rules">
+          By clicking Get Started, you agree to our Terms and Conditions.
+        </p>
+      </form>
+    </div>
+    <img
+      class="subscribe-image"
+      srcset="
+        /images/content/subscribe/1x/ofice.webp    1x,
+        /images/content/subscribe/2x/ofice@2x.webp 2x
+      "
+      src="/images/content/subscribe/1x/ofice.webp"
+      alt="cafe office"
+    />
+  </div>
+</section>

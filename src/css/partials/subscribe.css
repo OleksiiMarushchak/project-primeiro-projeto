@@ -1,1 +1,143 @@
-/* PART SUBSCRIBE */
+.subscribe {
+  padding: 64px 0;
+}
+.subscribe-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.subscribe-box {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.subscribe-content-title {
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin-bottom: 24px;
+}
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.subscribe-form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.subscribe-input-wrapper {
+  position: relative;
+}
+.subscribe-form-field {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 1px solid rgba(11, 8, 3, 0.15);
+  border-radius: 12px;
+  padding: 8px 12px;
+  background-color: transparent;
+  height: 40px;
+  outline: none;
+  width: 100%;
+}
+.subscribe-form-field::placeholder {
+  color: rgba(11, 8, 3, 0.6);
+}
+.subscribe-form-field:focus-within {
+  outline: none;
+  background-color: transparent;
+}
+.text-valid,
+.text-invalid {
+  font-size: 12px;
+  line-height: 1.5;
+  display: none;
+}
+.text-valid {
+  color: green;
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+.text-invalid {
+  color: #7f1c1c;
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+.subscribe-form-field:not(:placeholder-shown):invalid {
+  border-color: #7f1c1c;
+  color: #7f1c1c;
+}
+.subscribe-form-field:not(:placeholder-shown):valid {
+  border-color: green;
+  color: green;
+}
+.subscribe-form-field:not(:placeholder-shown):valid ~ .text-valid {
+  display: block;
+}
+.subscribe-form-field:not(:placeholder-shown):invalid ~ .text-invalid {
+  display: block;
+}
+.subscribe-form-btn {
+  line-height: 1.5;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subscribe-form-icon {
+  margin-left: 12px;
+  fill: #fff;
+}
+.subscribe-form-rules {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.subscribe-image {
+  border-radius: 40px;
+  height: 400px;
+  object-fit: cover;
+}
+@media screen and (min-width: 768px) {
+  .subscribe-form {
+    max-width: 522px;
+  }
+  .subscribe-form-box {
+    flex-direction: row;
+  }
+  .subscribe-form-field {
+    margin-bottom: 0;
+    min-width: 340px;
+    height: 44px;
+  }
+  .text-valid,
+  .text-invalid {
+    top: 44px;
+  }
+  .subscribe-form-btn {
+    min-width: 158px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .subscribe-container {
+    flex-direction: row;
+  }
+  .subscribe-box {
+    justify-content: center;
+  }
+  .subscribe-box,
+  .subscribe-image {
+    width: calc((100% - 32px) / 2);
+  }
+  .subscribe-content-title {
+    font-size: 48px;
+  }
+  .subscribe-form-btn {
+    transition: background-color 250ms ease-in-out, box-shadow 250ms ease-in-out,
+      opacity 250ms ease-in-out;
+  }
+}

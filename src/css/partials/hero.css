@@ -2,6 +2,7 @@
 
 .hero {
     background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)), 
     url("/images/content/hero/1x/hero-mobile.webp");
     height: 100vh;
@@ -17,8 +18,10 @@
     .hero {
         background-image: linear-gradient(
             rgba(0, 0, 0, 0.5),
+
             rgba(0, 0, 0, 0.5)
             ),
+
              url("/images/content/hero/2x/hero-mobile@2x.webp");
     }
 }
@@ -28,8 +31,10 @@
         max-width: 768px;
         background-image: linear-gradient(
             rgba(0, 0, 0, 0.5),
+
             rgba(0, 0, 0, 0.5)
             ),
+
              url("/images/content/hero/1x/hero-tablet.webp");
     }
 
@@ -37,8 +42,10 @@
         .hero {
             background-image: linear-gradient(
                 rgba(0, 0, 0, 0.5),
+
                 rgba(0, 0, 0, 0.5)
                 ),
+
                  url("/images/content/hero/2x/hero-tablet@2x.webp");
         }
     }
@@ -49,8 +56,10 @@
         max-width: 1440px;
         background-image: linear-gradient(
             rgba(0, 0, 0, 0.5),
+
             rgba(0, 0, 0, 0.5)
             ),
+
              url("/images/content/hero/1x/hero-desktop.webp");
     }
 
@@ -58,8 +67,10 @@
         .hero {
             background-image: linear-gradient(
                 rgba(0, 0, 0, 0.5),
+
                 rgba(0, 0, 0, 0.5)  
                 ),
+
                  url("/images/content/hero/2x/hero-desktop@2x.webp");
         }
     }
