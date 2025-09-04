@@ -109,8 +109,7 @@
     height: 234px;
   }
 
-  .experience-foto-last {
-    width: 416px;
+  .experience-item:last-child .experience-foto-normal {
     height: 416px;
   }
 }
