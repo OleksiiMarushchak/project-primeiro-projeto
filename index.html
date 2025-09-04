@@ -21,7 +21,7 @@
     />
 
     <script type="module" crossorigin src="/project-primeiro-projeto/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-primeiro-projeto/assets/index-D-m7skus.css">
+    <link rel="stylesheet" crossorigin href="/project-primeiro-projeto/assets/index-iBZJHIeq.css">
   </head>
   <body>
     <header class="page-header">
@@ -301,7 +301,7 @@
             <p class="text-valid">Succes!</p>
             <p class="text-invalid">Invalid email, try again</p>
           </div>
-          <button class="subscribe-form-btn" type="submit">
+          <button class="subscribe-form-btn" type="submit" data-modal-open>
             Subscribe
             <svg class="subscribe-form-icon" width="24" height="24">
               <use href="/project-primeiro-projeto/assets/sprite-DnKQezZi.svg#icon-chevrons-right"></use>
@@ -754,7 +754,48 @@
 </footer>
 
 
-    
+    <div class="subscribe-modal" data-modal>
+  <div class="container">
+    <div class="subscribe-modal-container">
+      <button class="subscribe-modal-close" type="button" data-modal-close>
+        <svg class="subscribe-modal-icon" width="32" height="32">
+          <use href="/project-primeiro-projeto/assets/sprite-DnKQezZi.svg#icon-cross"></use>
+        </svg>
+      </button>
+      <div class="subscribe-modal-box">
+        <h2 class="subscribe-modal-title">
+          Welcome to the world of CoffeeJoy!
+        </h2>
+        <p class="subscribe-modal-text">
+          Fresh brews, special offers, and cozy updates are coming your way.
+        </p>
+      </div>
+      <picture class="subscribe-modal-collage">
+        <source
+          media="(min-width: 1440px)"
+          srcset="/project-primeiro-projeto/assets/desk-tab-subscribe-modal-oEsccwex.webp 1x, /project-primeiro-projeto/assets/desk-tab-subscribe-modal@2x-D6BUxI_A.webp 2x"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="/project-primeiro-projeto/assets/desk-tab-subscribe-modal-oEsccwex.webp 1x, /project-primeiro-projeto/assets/desk-tab-subscribe-modal@2x-D6BUxI_A.webp 2x"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="/project-primeiro-projeto/assets/mob-subscribe-modal-DEjeQNxo.webp 1x, /project-primeiro-projeto/assets/mob-subscribe-modal@2x-yqvfClMV.webp 2x"
+        />
+        <img
+          class="subscribe-modal-image"
+          src="/project-primeiro-projeto/assets/desk-tab-subscribe-modal-oEsccwex.webp"
+          alt="tea still life"
+        />
+      </picture>
+      <button class="subscribe-modal-btn" type="button" data-modal-close-btn>
+        Close
+      </button>
+    </div>
+  </div>
+</div>
+
 
   </body>
 </html>

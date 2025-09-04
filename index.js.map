@@ -1,1 +1,1 @@
-{"version":3,"mappings":"8sDAAA,OAAO,2BAAa","names":[],"ignoreList":[],"sources":["../src/main.js"],"sourcesContent":["import(\"/js/menu.js\");\n"],"file":"index.js"}
+{"version":3,"mappings":"8sDAAA,OAAO,2BAAa,YACpB,OAAO,4BAAc","names":[],"ignoreList":[],"sources":["../src/main.js"],"sourcesContent":["import('/js/menu.js');\nimport('/js/modal.js');\n"],"file":"index.js"}
