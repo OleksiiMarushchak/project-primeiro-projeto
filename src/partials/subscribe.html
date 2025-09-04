@@ -10,17 +10,22 @@
       </div>
       <form class="subscribe-form">
         <div class="subscribe-form-box">
-          <input
-            class="subscribe-form-field"
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Your Email Here"
-            required
-          />
-          <label class="subscribe-form-label visually-hidden" for="email"
-            >Email</label
-          >
+          <div class="subscribe-input-wrapper">
+            <input
+              class="subscribe-form-field"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Here"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
+            />
+            <label class="subscribe-form-label visually-hidden" for="email"
+              >Email</label
+            >
+            <p class="text-valid">Succes!</p>
+            <p class="text-invalid">Invalid email, try again</p>
+          </div>
           <button class="subscribe-form-btn" type="submit">
             Subscribe
             <svg class="subscribe-form-icon" width="24" height="24">
