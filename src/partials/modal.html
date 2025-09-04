@@ -1,0 +1,50 @@
+<div class="subscribe-modal" data-modal>
+  <div class="container">
+    <div class="subscribe-modal-container">
+      <button class="subscribe-modal-close" type="button" data-modal-close>
+        <svg class="subscribe-modal-icon" width="32" height="32">
+          <use href="/images/sprite.svg#icon-cross"></use>
+        </svg>
+      </button>
+      <div class="subscribe-modal-box">
+        <h2 class="subscribe-modal-title">
+          Welcome to the world of CoffeeJoy!
+        </h2>
+        <p class="subscribe-modal-text">
+          Fresh brews, special offers, and cozy updates are coming your way.
+        </p>
+      </div>
+      <picture class="subscribe-modal-collage">
+        <source
+          media="(min-width: 1440px)"
+          srcset="
+            /images/content/modal/1x/desk-tab-subscribe-modal.webp    1x,
+            /images/content/modal/2x/desk-tab-subscribe-modal@2x.webp 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            /images/content/modal/1x/desk-tab-subscribe-modal.webp    1x,
+            /images/content/modal/2x/desk-tab-subscribe-modal@2x.webp 2x
+          "
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            /images/content/modal/1x/mob-subscribe-modal.webp    1x,
+            /images/content/modal/2x/mob-subscribe-modal@2x.webp 2x
+          "
+        />
+        <img
+          class="subscribe-modal-image"
+          src="/images/content/modal/1x/desk-tab-subscribe-modal.webp"
+          alt="tea still life"
+        />
+      </picture>
+      <button class="subscribe-modal-btn" type="button" data-modal-close-btn>
+        Close
+      </button>
+    </div>
+  </div>
+</div>
