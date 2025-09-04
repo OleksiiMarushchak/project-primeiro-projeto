@@ -1,7 +1,10 @@
 /* PART TESTIMONIALS */
 
+.testimonials {
+    padding: 64px 0;
+}
 
-.testimonials {}
+.testimonials-container {}
 
 .testimonials-block {}
 
