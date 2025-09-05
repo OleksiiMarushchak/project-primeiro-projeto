@@ -1,0 +1,2 @@
+(()=>{const e={openModalBtn:document.querySelector("[data-open-modal]"),closeModalBtns:document.querySelectorAll("[data-close-modal]"),modal:document.querySelector("[data-modal]"),form:document.querySelector("form")};e.openModalBtn.addEventListener("click",function(o){if(o.preventDefault(),!e.form.checkValidity()){e.form.reportValidity();return}t()}),e.closeModalBtns.forEach(o=>{o.addEventListener("click",t)});function t(){e.modal.classList.toggle("subscription-open")}})();
+//# sourceMappingURL=modal-DXtIBB3t.js.map

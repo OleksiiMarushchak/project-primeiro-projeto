@@ -1,2 +1,0 @@
-(()=>{const e={openModalBtn:document.querySelector("[data-modal-open]"),closeModalCross:document.querySelector("[data-modal-close]"),closeModalBtn:document.querySelector("[data-modal-close-btn]"),modal:document.querySelector("[data-modal]")};e.openModalBtn.addEventListener("click",o),e.closeModalCross.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o);function o(t){t.preventDefault(),e.modal.classList.toggle("subscription-open")}})();
-//# sourceMappingURL=modal-D5lE_nCv.js.map
