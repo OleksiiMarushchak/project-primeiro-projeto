@@ -99,5 +99,11 @@
   }
   .subscribe-modal-btn {
     max-width: 274px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .subscribe-modal-close {
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
