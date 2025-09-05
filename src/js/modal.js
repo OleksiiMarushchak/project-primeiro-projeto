@@ -1,21 +1,27 @@
 (() => {
   const refs = {
-    // Додати атрибут data-modal-open на кнопку відкриття
-    openModalBtn: document.querySelector('[data-modal-open]'),
-    // Додати атрибут data-modal-close на кнопку закриття
-    closeModalCross: document.querySelector('[data-modal-close]'),
-    closeModalBtn: document.querySelector('[data-modal-close-btn]'),
-    // Додати атрибут data-modal на бекдроп модалки
+    openModalBtn: document.querySelector('[data-open-modal]'),
+    closeModalBtns: document.querySelectorAll('[data-close-modal]'),
     modal: document.querySelector('[data-modal]'),
+    form: document.querySelector('form'),
   };
 
-  refs.openModalBtn.addEventListener('click', toggleModal);
-  refs.closeModalCross.addEventListener('click', toggleModal);
-  refs.closeModalBtn.addEventListener('click', toggleModal);
-
-  function toggleModal(event) {
+  refs.openModalBtn.addEventListener('click', function (event) {
     event.preventDefault();
-    // is-open це клас який буде додаватися/забиратися на бекдроп при натисканні на кнопки
+
+    if (!refs.form.checkValidity()) {
+      refs.form.reportValidity();
+      return;
+    }
+
+    toggleModal();
+  });
+
+  refs.closeModalBtns.forEach(btn => {
+    btn.addEventListener('click', toggleModal);
+  });
+
+  function toggleModal() {
     refs.modal.classList.toggle('subscription-open');
   }
 })();
