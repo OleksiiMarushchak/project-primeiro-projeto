@@ -1,6 +1,6 @@
 # project-primeiro-projeto
 
-![Screenshot of project page](./Assets/Screenshot-1.png)
+![Screenshot of project page](./Assets/Screenshot-1.jpg)
 
 ## Description
 
